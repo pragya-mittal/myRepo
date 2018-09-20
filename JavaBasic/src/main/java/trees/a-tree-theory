@@ -1,0 +1,30 @@
+https://www.geeksforgeeks.org/overview-of-data-structures-set-2-binary-tree-bst-heap-and-hash/
+
+https://www.geeksforgeeks.org/binary-tree-set-1-introduction/
+Binary tree - A tree which has atmost 2 children
+
+https://www.geeksforgeeks.org/binary-tree-set-2-properties/
+
+https://www.geeksforgeeks.org/binary-tree-set-3-types-of-binary-tree/
+Full binary tree - binary tree, every node has either 0 or 2 children
+Complete binary tree - all levels are completely filled except possibly the last level and the last level has all keys as left as possible
+Perfect Binary Tree - A Binary tree is Perfect Binary Tree in which all internal nodes have two children and all leaves are at same level.
+
+Balanced binary tree - Height = o(logn) - avl tree, red black tree
+
+A degenerate (or pathological) tree - A Tree where every internal node has one child. Such trees are performance-wise same as linked list.
+
+Binary Search Tree, is a node-based binary tree data structure which has the following properties:
+The left subtree of a node contains only nodes with keys lesser than the node’s key.
+The right subtree of a node contains only nodes with keys greater than the node’s key.
+The left and right subtree each must also be a binary search tree.
+There must be no duplicate nodes.
+
+http://www.ritambhara.in/check-if-two-node-are-siblings-in-a-binary-tree/
+The check for sibling is simple. In recursive traversal of the tree we need to check if the given values are:
+-left and right child of current node.
+-Siblings in the left subtree.
+-Siblings in the right subtree.
+If any of the above three conditions are true, then they are siblings , else not.
+
+
